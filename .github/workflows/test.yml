@@ -22,7 +22,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: 'poetry'
       - run: poetry install
-      - run: poetry run pytest --cov --cov-report xml coverage.xml
+      - run: poetry run pytest --cov --cov-report xml:coverage.xml
       - name: Get Cover
         uses: orgoro/coverage@v3
         with:
