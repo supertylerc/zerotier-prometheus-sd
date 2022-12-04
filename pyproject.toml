@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "zerotier-prometheus-sd"
+version = "0.1.0"
+description = ""
+authors = ["Tyler Christiansen <code@tylerc.me>"]
+readme = "README.md"
+packages = [{include = "zerotier_prometheus_sd"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.88"
+uvicorn = "^0.20"
+pydantic = "^1.10"
+httpx = {extras = ["http2"], version = "^0.23"}
+python-dotenv = "^0.21"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10"
+pytest = "^7.2"
+radon = "^5.1"
+bandit = "^1.7"
+prospector = "^1.7"
+mypy = "^0.991"
+pyupgrade = "^3.2"
+isort = "^5.10"
+pre-commit = "^2.20"
+ipython = "^8.7"
+pip-audit = "^2.4"
+coverage = {extras = ["toml"], version = "^6.5"}
+pytest-cov = "^4.0"
+
+[tool.coverage.run]
+branch = true
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
