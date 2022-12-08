@@ -3,5 +3,5 @@ __pycache__
 .vscode
 htmlcov
 .coverage
-.coverage.xml
+coverage.xml
 .pytest_cache
