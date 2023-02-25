@@ -1,7 +1,8 @@
-from zerotier_prometheus_sd.config import get_settings
-from zerotier_prometheus_sd.service.zerotier import ZeroTierAPI
 import pytest
 from pytest_httpx._httpx_mock import HTTPXMock
+
+from zerotier_prometheus_sd.config import get_settings
+from zerotier_prometheus_sd.service.zerotier import ZeroTierAPI
 
 
 @pytest.mark.asyncio
