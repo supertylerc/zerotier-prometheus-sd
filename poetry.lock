@@ -1286,14 +1286,14 @@ pip = "*"
 
 [[package]]
 name = "pip-audit"
-version = "2.4.14"
+version = "2.5.1"
 description = "A tool for scanning Python environments for known vulnerabilities"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "pip_audit-2.4.14-py3-none-any.whl", hash = "sha256:f9632b9f67bcf3fda78ef7651a03c8ed926d1eaeda474dcbdcb26a5518dd6ffc"},
-    {file = "pip_audit-2.4.14.tar.gz", hash = "sha256:1259629fe24302e257052e977146f56bebf34927740d5efd184aaafa3b1b3b38"},
+    {file = "pip_audit-2.5.1-py3-none-any.whl", hash = "sha256:c3154f509eb9e32de83d4b9cbe9011ce1e7fc247912c3a1590b3fb9eb0075dec"},
+    {file = "pip_audit-2.5.1.tar.gz", hash = "sha256:de2ec30c8f314885e56935ccf948c819c51b378b998932f01ffaad27b86cc616"},
 ]
 
 [package.dependencies]
@@ -1303,14 +1303,13 @@ html5lib = ">=1.1"
 packaging = ">=23.0.0"
 pip-api = ">=0.0.28"
 pip-requirements-parser = ">=32.0.0"
-resolvelib = ">=0.8.0"
 rich = ">=12.4"
 toml = ">=0.10"
 
 [package.extras]
 dev = ["build", "bump (>=1.3.2)", "pip-audit[doc,lint,test]"]
 doc = ["pdoc"]
-lint = ["black (>=22.3.0)", "interrogate", "isort", "mypy", "ruff (<0.0.228)", "types-html5lib", "types-requests", "types-toml"]
+lint = ["black (>=22.3.0)", "interrogate", "isort", "mypy", "ruff (<0.0.256)", "types-html5lib", "types-requests", "types-toml"]
 test = ["coverage[toml]", "pretend", "pytest", "pytest-cov"]
 
 [[package]]
@@ -1915,24 +1914,6 @@ poetry-semver = ">=0.1.0,<0.2.0"
 toml = ">=0.10.2,<0.11.0"
 
 [[package]]
-name = "resolvelib"
-version = "0.9.0"
-description = "Resolve abstract dependencies into concrete ones"
-category = "dev"
-optional = false
-python-versions = "*"
-files = [
-    {file = "resolvelib-0.9.0-py2.py3-none-any.whl", hash = "sha256:597adcbdf81d62d0cde55d90faa8e79187ec0f18e5012df30bd7a751b26343ae"},
-    {file = "resolvelib-0.9.0.tar.gz", hash = "sha256:40ab05117c3281b1b160105e10075094c5ab118315003c922b77673a365290e1"},
-]
-
-[package.extras]
-examples = ["html5lib", "packaging", "pygraphviz", "requests"]
-lint = ["black", "flake8", "isort", "mypy", "types-requests"]
-release = ["build", "towncrier", "twine"]
-test = ["commentjson", "packaging", "pytest"]
-
-[[package]]
 name = "rfc3986"
 version = "1.5.0"
 description = "Validating URI References per RFC 3986"
@@ -2348,4 +2329,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3cbbdecc04b124817cf60139a7dda87d5cc34efe769e1907acf4d0c972802b79"
+content-hash = "010f5fcf901dc44580219e98133a4bc3eaa8bba080cd9552d5e3354de7b61a50"
