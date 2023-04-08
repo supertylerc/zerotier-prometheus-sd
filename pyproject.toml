@@ -24,7 +24,7 @@ mypy = "^1.2"
 pyupgrade = "^3.3"
 isort = "^5.12"
 pre-commit = "^3.2"
-ipython = "^8.10"
+ipython = "^8.12"
 pip-audit = "^2.5"
 coverage = {extras = ["toml"], version = "^7.2"}
 pytest-cov = "^4.0"
