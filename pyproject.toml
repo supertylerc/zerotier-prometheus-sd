@@ -16,7 +16,7 @@ python-dotenv = "^1.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.3"
-pytest = "^7.2"
+pytest = "^7.3"
 radon = "^6.0"
 bandit = "^1.7"
 prospector = "^1.9"
