@@ -23,7 +23,7 @@ prospector = "^1.9"
 mypy = "^1.2"
 pyupgrade = "^3.3"
 isort = "^5.12"
-pre-commit = "^3.2"
+pre-commit = "^3.3"
 ipython = "^8.13"
 pip-audit = "^2.5"
 coverage = {extras = ["toml"], version = "^7.2"}
